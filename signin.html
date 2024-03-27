@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+    <div class="container">
+        <form class="registration-form">
+            <h2>Register</h2>
+            <div class="input-group">
+                <input type="text" id="fullname" name="fullname" placeholder="Full Name" required>
+            </div>
+            <div class="input-group">
+                <input type="text" id="fullname" name="Address" placeholder="Address/street_name" required>
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" name="password" placeholder="Password" required>
+            </div>
+            <button id="submit" onclick=message() type="submit">Sign Up</button>
+        </form>
+
+        
+    </div>
+    <script>
+        function message(){
+          
+        alert('registration successful');
+
+        }
+    </script>
+</body>
+</html>

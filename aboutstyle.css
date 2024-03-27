@@ -1,0 +1,89 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.main{
+    background-image:url(8.jpg);
+    width:100%;
+    background-position:center;
+    background-size:cover;
+    height:109vh;
+}
+
+.about{
+    width:900px;
+    height:100px;
+    margin-right: 100px;
+}
+.para{
+    font-family: 'Times New Roman';
+    font-size: 19px;
+    text-align: center;
+
+}
+.about h1{
+    color:orange;
+    font-family: 'Times New Roman';
+    font-style:italic;
+    font-size: 30px;
+    top:0
+}
+
+.imgs{
+height:100px;
+width:200px;
+margin-left:10px;
+
+}
+
+.imgs img{
+    width:200;
+    float:left;
+    height:200px;
+    margin-left: 10px;   
+}
+
+#first{
+    border-top: 5px  solid pink;
+    border-radius: 100px;
+    margin-right: 50px;
+    width:300px;
+    margin-top :5px;
+    transition: transform .7s ease-in-out;
+
+
+}
+.imgss{
+    position: absolute;
+    right:0;
+    width:200px;
+    height:100px;
+    float: right;
+    top:0
+   
+
+}
+.imgss img{
+    width:200;
+    float:right;
+    height:200px;
+    margin-top: 10px;
+    
+}
+#second{
+    border-top: 5px solid pink;
+    border-radius: 100px;
+    width:300px;
+    margin-top: 5px;
+    margin-right: 10px;
+    transition: transform .7s ease-in-out;
+}
+#second:hover{
+    overflow: hidden;
+    transform:  rotate(360deg);
+}
+#first:hover{
+    overflow: hidden;
+    transform:  rotate(360deg);
+}
